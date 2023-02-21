@@ -26,7 +26,7 @@ header h1 {
 nav {
 	 height: 10px;
 	 padding-top: 1px; 
-	 padding-left: 5%;
+	 margin-left:auto;margin-right:auto;
 	 width: 80%;
 	 text-align: center;
 	 height: 35px;
@@ -35,8 +35,12 @@ nav {
 nav ul {list-style-type: none;
 	 color: black;
 	 text-align: center;
+	 padding-left:0px;
 	 
 	 }
+ul{
+	margin-left:-13px;	
+}
 
 nav ul li {
 	 display: inline;

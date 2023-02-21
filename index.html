@@ -1,13 +1,64 @@
 <html lang="es">
 <head>
-<title>INDEX</title>
+<title>OBB</title>
 <meta charset="UTF-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="INDEX.css" />
 </head>
-<style> 
+<style>
+.column {
+  float: left;
+  margin:2px;
+  width: 32%;
+  padding: 10px;
+  height: 300px;
+  box-sizing: border-box;
+  border:1px solid black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: border-box;
+}
+.row{
+width:90%;
+margin-bottom:100px;
+margin-left:auto;margin-right:auto;
+}
+
+@media only screen and (max-device-width: 640px) {
+.column {
+  float: left;
+  margin:2px;
+  margin-bottom:10px;
+  width: 100%;
+  padding: 10px;
+  height: 400px;
+  box-sizing: border-box;
+  border:1px solid black;
+}
+
+.row:after {
+  content: "";
+
+  clear: both;
+  box-sizing: border-box;
+}
+.row{
+width:90%;
+margin-bottom:100px;
+margin-left:auto;margin-right:auto;
+}
+
+   
+}
+
+
+
 </style>
 <body>
 <header> 
@@ -19,12 +70,12 @@
 <nav>
   		<ul>
     		 <a href="index.html" id="enlace"><li id="selec" >Inicio</li></a>
-    	 	 <a href="Paginas/Casas.html"><li class="centro" >ODS</li></a>
-    		 <a href="Paginas/Personajes.html" ><li class="derecha">Foro</li></a>
+    	 	 <a href="Paginas/ods.html"><li class="centro" >ODS</li></a>
+    		 <a href="Paginas/foro.html" ><li class="derecha">Foro</li></a>
 		<br></br>
 		<br></br>
-    		 <a href="Paginas/Citas.html"><li class="izquierda">Contacto</li></a>
-    	 	 <a href="Paginas/Galeria.html"><li class="derecha">Galería</li></a>
+    		 <a href="Paginas/contacto.html"><li class="izquierda">Contacto</li></a>
+    	 	 <a href="Paginas/galeria.html"><li class="derecha">Galería</li></a>
  		</ul>
 </nav>
 
@@ -56,33 +107,26 @@ El origen de OpenBrailleBook data de 2019, cuando en la universidad, durante un 
 
 		</div>
 
-		<h1 class="novelas">¿Quiénes somos?
-		</h1>		
+		<h1 class="novelas">¿Quiénes somos?</h1>		
 		
-		<div class="tlt">Luis Solís es un estudiante de grado superior con especial interés en las tecnologías libres. Durante su paso por la universidad, participó en diferentes proyectos relacionados con el software libre y fue allí donde descubrió algunas de las barreras a las que se enfrentan las personas con discapacidad visual, especialmente en el ámbito científico y tecnológico.
+		<div class="tlt">
 
-
-Gabriel Barroso es otro estudiante de grado superior de la misma clase con intereses más centralizados en mecánica y aplicaciones de la misma. A pesar de ser todavía bastante joven, ha estudiado por su cuenta temas relacionados con mecanismos y robótica, y después de que se lo comentaran sus compañeros de estudio, pensó en maneras de aplicar esos intereses para un proyecto que permitiera solventar problemas que tiene la gente con discapacidad visual en el ámbito tecnológico del día a día, mediante este producto.
-
-
-Jordi Alonso también es un estudiante del grado superior de sistemas informáticos en red. En sus años en la facultad de Derecho estudió cómo la legislación para con las personas con discapacidades en muchos casos es insuficiente y fallan como normas al no traducirse en un cambio real en el día a día de esos colectivos. Como lo es poner una barrera monetaria prohibitiva para la mayor parte del colectivo para algo tan básico como poder leer.
-
+		</div>
+		<div class="row">
+		  <div class="column" style="background-color:#e3e3e3;">
+			<h2>Luis Solís</h2>
+			<p>es un estudiante de grado superior con especial interés en las tecnologías libres. Durante su paso por la universidad, participó en diferentes proyectos relacionados con el software libre y fue allí donde descubrió algunas de las barreras a las que se enfrentan las personas con discapacidad visual, especialmente en el ámbito científico y tecnológico.</p>
+		  </div>
+		  <div class="column" style="background-color:#e3e3e3;">
+			<h2>Gabriel Barroso</h2>
+			<p>es otro estudiante de grado superior de la misma clase con intereses más centralizados en mecánica y aplicaciones de la misma. A pesar de ser todavía bastante joven, ha estudiado por su cuenta temas relacionados con mecanismos y robótica, y después de que se lo comentaran sus compañeros de estudio, pensó en maneras de aplicar esos intereses para un proyecto que permitiera solventar problemas que tiene la gente con discapacidad visual en el ámbito tecnológico del día a día, mediante este producto.</p>
+		  </div>
+		  <div class="column" style="background-color:#e3e3e3;">
+			<h2>Jordi Alonso</h2>
+			<p>también es un estudiante del grado superior de sistemas informáticos en red. En sus años en la facultad de Derecho estudió cómo la legislación para con las personas con discapacidades en muchos casos es insuficiente y fallan como normas al no traducirse en un cambio real en el día a día de esos colectivos. Como lo es poner una barrera monetaria prohibitiva para la mayor parte del colectivo para algo tan básico como poder leer. </p>
+		  </div>
+		</div>	  
 </div>
-		<p class="recom"><br>
-		
-		</p>		
-		
-	  	<p id="int">
-	  	
-	  	</p>
-	  	<p id="int">
-	  
-	  	</p>
-	  	<p id="int">
-	  	</p>
-	  	  
-	  
-	</div>
 </main>
 
 
